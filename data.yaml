@@ -1,0 +1,5 @@
+train: G:/Projects/gifappend/datasets/new_train/new_t/images
+val: G:/Projects/gifappend/datasets/new_validation/new_v/images
+
+nc: 10  # Number of classes
+names: ['t-shirt', 'trousers', 'dress', 'jacket', 'sweater', 'scarf', 'gloves', 'skirt', 'hat', 'shoes']

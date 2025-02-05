@@ -1,0 +1,27 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore datasets (unless you want to include specific datasets)
+datasets/
+
+# Ignore YOLO training outputs and model weights except the ones needed
+runs/
+!runs/detect/train11/weights/
+
+# Ignore sort data and training files
+sort/data/
+
+# Ignore model weights
+yolo_training.py
+yolo11n.pt
+yolov8n-seg.pt
+yolov8n.pt
+
+# Ignore system-specific files (e.g., macOS or Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore environment files (if you use virtual environments)
+.venv/
+.env/

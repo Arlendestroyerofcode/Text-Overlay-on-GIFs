@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text on GIF</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Apply Text to GIF</h1>
+    <form id="gif-form">
+      <label for="gif-file">Upload GIF:</label>
+      <input type="file" id="gif-file" name="gif" accept="image/gif" required>
+      
+      <label for="text-input">Enter Text:</label>
+      <input type="text" id="text-input" name="text" placeholder="Enter your text here..." required>
+      
+      <button type="submit">Process GIF</button>
+    </form>
+    
+    <div id="result">
+      <h2>Processed GIF:</h2>
+      <img id="processed-gif" alt="Processed GIF" style="display:none;">
+    </div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
